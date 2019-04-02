@@ -4,7 +4,7 @@ node {
   }
 
   stage('Build') {
-    sh 'docker image build -t Adelerhof/demo-api:latest .'
+    sh 'docker image build -t adelerhof/demo-api:latest .'
   }
 
   stage('Push') {
